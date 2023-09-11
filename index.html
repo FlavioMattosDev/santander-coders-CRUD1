@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="https://www.freeiconspng.com/uploads/awesome-face-png-1.png"
+			type="image/png"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Catálogo de Produtos</title>
+	</head>
+	<body>
+		<header>
+			<h1>Catálogo de Produtos</h1>
+		</header>
+
+		<main>
+			<div class="title">
+				<h2>Produtos</h2>
+				<span>Lista de produtos da sua loja virtual.</span>
+			</div>
+
+			<div class="card">
+				<div class="lineInput">
+					<label for="produto">Produto</label>
+					<input type="text" id="produto" placeholder="Nome do Produto" />
+				</div>
+
+				<div class="lineInput">
+					<label for="valor">Valor</label>
+					<input type="text" id="valor" placeholder="Valor do Produto" />
+				</div>
+
+				<button>Adicionar</button>
+			</div>
+
+			<div class="content">
+				<table border="1">
+					<thead>
+						<th class="center">ID</th>
+						<th>Produto</th>
+						<th>Valor</th>
+						<th class="center">Ações</th>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<p>Copyright © 2023 Flávio Mattos</p>
+		</footer>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
