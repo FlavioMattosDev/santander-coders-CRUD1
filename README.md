@@ -5,7 +5,7 @@ Este repositório GitHub é dedicado a um catálogo de produtos desenvolvido com
 ## 🚀 Demonstração
 
 ![image](final-project.png)
-[Clique aqui](linkaqui) para acessar o resultado final do projeto.
+[Clique aqui](https://flaviomattosdev.github.io/POO-Projeto-Individual/) para acessar o resultado final do projeto.
 
 ## UML Simplificado
 
