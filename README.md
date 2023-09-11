@@ -2,14 +2,14 @@
 
 Este repositório GitHub é dedicado a um catálogo de produtos desenvolvido com HTML, CSS e JavaScript, adotando os princípios da programação orientada a objetos. Nosso projeto oferece um conjunto completo de funcionalidades CRUD (Create, Read, Update, Delete), permitindo aos usuários criar, visualizar, atualizar e excluir produtos de forma dinâmica.
 
-## UML Simplificado
-
-![image](UML.png)
-
 ## 🚀 Demonstração
 
 ![image](final-project.png)
 [Clique aqui](linkaqui) para acessar o resultado final do projeto.
+
+## UML Simplificado
+
+![image](UML.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
