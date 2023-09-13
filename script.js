@@ -85,6 +85,11 @@ class Game {
 	}
 }
 
+Game.prototype.getFormattedPrice = function () {
+	return `R$ ${this._price.toFixed(2)}`;
+};
+console.log(myGame.getFormattedPrice());
+
 class GameTracker {
 	constructor() {
 		this._gameList = [];
