@@ -89,7 +89,7 @@ class GameTracker {
 	constructor() {
 		this._gameList = [];
 		this._filterCompleted = false;
-		this._currentCategory = 'all'; // Adicione esta propriedade para controlar a categoria atual
+		this._currentCategory = 'all';
 	}
 
 	toggleFilterCompleted() {
@@ -210,7 +210,7 @@ class GameTracker {
 	}
 
 	toggleCompleted(index) {
-		this._gameList[index].toggleCompleted(); // Chamando a função toggleCompleted do jogo.
+		this._gameList[index].toggleCompleted();
 		this.displayGames();
 	}
 }
