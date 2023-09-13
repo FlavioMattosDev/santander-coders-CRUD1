@@ -1,6 +1,6 @@
 # POO Projeto Individual - Catálogo de produtos
 
-Este repositório GitHub é dedicado a um catálogo de produtos desenvolvido com HTML, CSS e JavaScript, adotando os princípios da programação orientada a objetos. Nosso projeto oferece um conjunto completo de funcionalidades CRUD (Create, Read, Update, Delete), permitindo aos usuários criar, visualizar, atualizar e excluir produtos de forma dinâmica.
+Este repositório GitHub é dedicado a um catálogo de jogos desenvolvido com HTML, CSS e JavaScript, adotando os princípios da programação orientada a objetos. Nosso projeto oferece um conjunto completo de funcionalidades CRUD (Create, Read, Update, Delete), permitindo aos usuários criar, visualizar, atualizar e excluir jogos de forma dinâmica.
 
 ## 🚀 Demonstração
 

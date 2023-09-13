@@ -9,50 +9,87 @@
 			type="image/png"
 		/>
 		<link rel="stylesheet" href="./style.css" />
-		<title>Catálogo de Produtos</title>
+		<title>Marcador de Jogos Finalizados</title>
 	</head>
 	<body>
 		<header>
-			<h1>Catálogo de Produtos</h1>
+			<h1>Marcador de Jogos Finalizados</h1>
 		</header>
 
 		<main>
 			<div class="title">
-				<h2>Produtos</h2>
-				<span>Lista de produtos da sua loja virtual.</span>
+				<h2>Jogos Finalizados</h2>
+				<span>Registre informações sobre jogos finalizados.</span>
 			</div>
 
 			<div class="card">
 				<div class="lineInput">
-					<label for="produto">Produto</label>
-					<input type="text" id="produto" placeholder="Nome do Produto" />
+					<label for="nomeJogo">Nome do Jogo</label>
+					<input type="text" id="nomeJogo" placeholder="Nome do Jogo" />
 				</div>
 
 				<div class="lineInput">
-					<label for="valor">Valor</label>
-					<input type="text" id="valor" placeholder="Valor do Produto" />
+					<label for="precoJogo">Preço</label>
+					<input type="text" id="precoJogo" placeholder="Preço do Jogo" />
+				</div>
+
+				<div class="lineInput">
+					<label for="dataJogo">Data</label>
+					<input type="date" id="dataJogo" />
+				</div>
+
+				<div class="lineInput">
+					<label for="horasJogo">Horas para Finalizar</label>
+					<input
+						type="number"
+						id="horasJogo"
+						step="0.01"
+						placeholder="Adicione as horas em minutos"
+					/>
+				</div>
+
+				<div class="lineInput">
+					<label for="categoriaJogo">Categoria</label>
+					<select id="categoriaJogo">
+						<option value="Excepcional">Excepcional</option>
+						<option value="Legal">Legal</option>
+						<option value="Ok">Ok</option>
+						<option value="Chato">Chato</option>
+						<option value="Não Jogue">Não Jogue</option>
+					</select>
 				</div>
 
 				<button>Adicionar</button>
+			</div>
+
+			<div class="filter">
+				<label for="categoryFilter">Filtrar por Categoria:</label>
+				<select id="categoryFilter">
+					<option value="all">Todas as Categorias</option>
+					<option value="Excepcional">Excepcional</option>
+					<option value="Legal">Legal</option>
+					<option value="Ok">Ok</option>
+					<option value="Chato">Chato</option>
+					<option value="Não Jogue">Não Jogue</option>
+				</select>
+				<button id="applyFilter">Aplicar Filtro</button>
 			</div>
 
 			<div class="content">
 				<table border="1">
 					<thead>
 						<th class="center">ID</th>
-						<th>Produto</th>
-						<th>Valor</th>
+						<th>Nome do Jogo</th>
+						<th>Preço</th>
+						<th>Data</th>
+						<th>Horas para Finalizar</th>
+						<th>Categoria</th>
 						<th class="center">Ações</th>
 					</thead>
 					<tbody></tbody>
 				</table>
 			</div>
 		</main>
-
-		<footer class="footer">
-			<p>Copyright © 2023 Flávio Mattos</p>
-		</footer>
-
 		<script src="./script.js"></script>
 	</body>
 </html>
