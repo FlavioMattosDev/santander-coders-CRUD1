@@ -85,11 +85,6 @@ class Game {
 	}
 }
 
-Game.prototype.getFormattedPrice = function () {
-	return `R$ ${this._price.toFixed(2)}`;
-};
-console.log(myGame.getFormattedPrice());
-
 class GameTracker {
 	constructor() {
 		this._gameList = [];
@@ -241,11 +236,5 @@ const gameNameInput = document.getElementById('nomeJogo');
 const gamePriceInput = document.getElementById('precoJogo');
 const gameDateInput = document.getElementById('dataJogo');
 const gameHoursInput = document.getElementById('horasJogo');
-
-gameNameInput.addEventListener('keydown', (event) => {
-	if (event.key === 'Enter') {
-		tracker.addGame();
-	}
-});
 
 tracker.displayGames();
