@@ -5,7 +5,7 @@ Este repositório GitHub é dedicado a um catálogo de jogos desenvolvido com HT
 ## 🚀 Demonstração
 
 ![image](final-project.png)
-[Clique aqui](https://flaviomattosdev.github.io/POO-Projeto-Individual/) para acessar o resultado final do projeto.
+[Clique aqui](https://flaviomattosdev.github.io/santander-coders-CRUD1/) para acessar o resultado final do projeto.
 
 ## UML Simplificado
 
